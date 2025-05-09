@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 #Fri May 09 01:22:03 ULAT 2025
 configuration*?=C8A6AB6C9D582323A5796E091B8ACB8AAABAD48F
 module-resource*?\:checkstyle-xpath-suppressions.xml=2560208D49618174040453B85A17655A4443E26B
 module-resource*?\:checkstyle-suppressions.xml=BF4EDA993049511E6FAA7CD1B07E0D00F3ADCC3F
+=======
+#Fri May 09 10:19:03 ULAT 2025
+configuration*?=B84AA0A54511B108FEA65236F504A96A733DE700
+/home/Tushig/Documents/2024-2025/ph_buteelt/lab15/calculator/src/main/java/labxx/sict/must/edu/mn/LongDiv.java=1746756153144
+/home/Tushig/Documents/2024-2025/ph_buteelt/lab15/calculator/src/main/java/labxx/sict/must/edu/mn/Calculator.java=1746714615813
+>>>>>>> feature/add-division
