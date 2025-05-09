@@ -17,18 +17,21 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-      - name: Build with Maven
-        run: mvn -f calculator/pom.xml clean install
-      - name: Directory change
-        run: cd ./calculator
-      - name: Checkstyle Шалгах
-        run: mvn checkstyle:check
+
+      - name: Build and Run Tests with Coverage
+        run: mvn clean verify
         working-directory: ./calculator
 
-      - name: JUnit Тест ба JaCoCo Coverage Шалгах
-        run: mvn test jacoco:check
+      - name: Checkstyle Шалгах
+        run: mvn checkstyle:check
         working-directory: ./calculator
 
       - name: JaCoCo Тайлан Үүсгэх
         run: mvn jacoco:report
         working-directory: ./calculator
+
+      - name: Upload Coverage Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: jacoco-report
+          path: ./calculator/target/site/jacoco
