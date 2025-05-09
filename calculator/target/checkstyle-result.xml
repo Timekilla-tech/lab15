@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="9.3">
-<file name="/home/Tushig/Documents/2024-2025/ph_buteelt/lab15/calculator/src/main/java/labxx/sict/must/edu/mn/Calculator.java">
-<<<<<<< HEAD
-<error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
-<error line="4" column="5" severity="error" message="Class &apos;Calculator&apos; looks like designed for extension (can be subclassed), but the method &apos;add&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Calculator&apos; final or making the method &apos;add&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="4" column="20" severity="error" message="Parameter a should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="4" column="27" severity="error" message="Parameter b should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="4" column="34" severity="error" message="&apos;{&apos; at column 34 should have line break after." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
-<error line="5" column="5" severity="error" message="Class &apos;Calculator&apos; looks like designed for extension (can be subclassed), but the method &apos;subtract&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Calculator&apos; final or making the method &apos;subtract&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="5" column="25" severity="error" message="Parameter a should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="5" column="32" severity="error" message="Parameter b should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="5" column="39" severity="error" message="&apos;{&apos; at column 39 should have line break after." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
-<error line="6" column="5" severity="error" message="Class &apos;Calculator&apos; looks like designed for extension (can be subclassed), but the method &apos;multiply&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Calculator&apos; final or making the method &apos;multiply&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="6" column="25" severity="error" message="Parameter a should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="6" column="32" severity="error" message="Parameter b should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="6" column="39" severity="error" message="&apos;{&apos; at column 39 should have line break after." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
-<error line="7" column="5" severity="error" message="Class &apos;Calculator&apos; looks like designed for extension (can be subclassed), but the method &apos;divide&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Calculator&apos; final or making the method &apos;divide&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="7" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
-<error line="7" column="23" severity="error" message="Parameter a should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="7" column="30" severity="error" message="Parameter b should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="8" column="9" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
-=======
+<file name="/home/Tushig/Documents/2024-2025/ph_buteelt/lab15/calculator/src/main/java/labxx/sict/must/edu/mn/LongMulti.java">
 </file>
 <file name="/home/Tushig/Documents/2024-2025/ph_buteelt/lab15/calculator/src/main/java/labxx/sict/must/edu/mn/LongDiv.java">
->>>>>>> feature/add-division
 </file>
 </checkstyle>
